@@ -1,4 +1,4 @@
-下面是一个简单的实现遵循 Promise A+ 规范的 JavaScript Promise：
+//下面是一个简单的实现遵循 Promise A+ 规范的 JavaScript Promise：
 
 ```javascript
 // 定义三种状态常量
@@ -142,4 +142,4 @@ class MyPromise {
 }
 ```
 
-这个实现是一个简单的 Promise，符合 Promise A+ 规范。这个类有 `then`, `catch`, `resolve`, `reject`, `all`, 和 `race` 方法，可以用于 Promise 的基本操作和组合。注意，这个实现并没有考虑到异步情况，真实的 Promise 库会处理异步操作。
+//实现是一个简单的 Promise，符合 Promise A+ 规范。这个类有 `then`, `catch`, `resolve`, `reject`, `all`, 和 `race` 方法，可以用于 Promise 的基本操作和组合。注意，这个实现并没有考虑到异步情况，真实的 Promise 库会处理异步操作。
