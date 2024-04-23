@@ -1,6 +1,4 @@
 //下面是一个简单的实现遵循 Promise A+ 规范的 JavaScript Promise：
-
-```javascript
 // 定义三种状态常量
 const PENDING = 'pending';
 const FULFILLED = 'fulfilled';
